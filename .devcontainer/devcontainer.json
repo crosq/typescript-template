@@ -1,0 +1,17 @@
+{
+  "name": "TS & Node",
+  "build": {
+    "context": ".",
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
